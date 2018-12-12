@@ -1,0 +1,53 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+#mainContainer{
+	width: 400px;
+	
+	
+}
+
+p{
+	margin:0;
+}
+
+div {
+	padding-bottom: 0;
+}
+
+.sectionO { 
+	text-align: center;
+    padding-top: 18px;
+    height: 64px;
+    background-color: pink;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid purple;
+}
+
+.content{
+
+	height:0;
+	overflow: auto;
+	transition: height 1s;
+	
+}
+.sectionO:hover{
+	cursor: pointer;
+	background-color: purple;
+	color:pink;
+	
+}
+
+.active{
+	margin:0;
+	height:250px;
+	padding: 25px;
+	
+}
+
+.secOne, .secTwo, .secThree{
+		border:1px solid pink;
+
+}
